@@ -30,7 +30,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
  */
 @SpringBootApplication(exclude = {WebAutoConfiguration.class})
 @EnableScheduling
-public class GunsApplication {
+public class GunsApplication {   //1
 
     private final static Logger logger = LoggerFactory.getLogger(GunsApplication.class);
 
